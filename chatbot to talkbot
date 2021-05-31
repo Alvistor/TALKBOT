@@ -19,7 +19,7 @@ while(True):
         print(answer)
 
     msg = answer
-    if((msg == 'bye') or (msg == 'Bye')):
+    if((msg == 'bye') or (msg == 'GoodBye')):
         reply = 'Nice talking to you ...bye bye.'
         print('{} : {}'.format(bot.name, reply))
         break
