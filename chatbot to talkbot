@@ -15,6 +15,7 @@ while(True):
         r.adjust_for_ambient_noise(source)
         audio = r.record(source, duration=3)
         print("recognise")
+ # to print voice into text
        answer = r.recognize_google(audio)
         print(answer)
 
